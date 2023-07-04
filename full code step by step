@@ -1,0 +1,3320 @@
+            //Basic c++
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+    string name;
+
+    cout<<"may you know your name:";
+    getline(cin,name);
+    cout<< "hello "<<name;
+    return 0;
+}
+
+*/
+
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int a,b,sum;
+
+    cout<<"Enter a two number:";
+    cin>>a>>b;
+    sum=a+b;
+    cout<<"total sum is="<<sum;
+    return 0;
+} */
+
+/*#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    int a,b,c,r1;
+    cout<< "Enter a,b,c";
+    cin>>a>>b>>c;
+    r1=(-b+sqrt(b*b-4*a*c))/(2*a);
+    cout<< "roots "<<r1;
+    return 0;
+}
+*/
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+    float r,area;
+    cout<< "Enter Radius:";
+    cin>>r;
+    area=22/7.0 * r * r;
+    cout<< "Area is ="<<area;
+    return 0;
+
+
+} */
+
+/*#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+
+    int a,b,c;
+    float root1,root2;
+
+    cout<< "Enter 3 values:";
+    cin>>a>>b>>c;
+
+    root1=(-b+sqrt(b*b-4*a*c))/(2*a);
+    root2=(-b-sqrt(b*b-4*a*c))/(2*a);
+
+    return 0;
+}
+*/
+/*#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+
+    int u,v,a;
+    float speed;
+    cout<< "Enter 3 no :";
+    cin>>u>>v>>a;
+    speed=(v*v-u*u)/(2*a);
+    cout<< "speed is "<<speed<<endl;
+    return 0;
+} */
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+
+    int sum=10;
+    int x=5;
+
+    sum+=x;
+
+    cout<<sum;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    //char x=128;
+    int x=INT_MAX;
+
+    x++ //x--
+    cout<<(int)x<<endl;'
+
+    return 0;
+}
+*/
+
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int x=11,y=7,z;
+
+    z=x^y;
+    cout<<z<<endl;
+    return 0;
+}
+*/
+//enum vs typedef
+/*#include<iostream>
+using namespace std;
+
+enum day {mon, tus, wed, thu, fri,sat,sun};
+
+int main()
+{
+
+    day d;
+    d=tus;
+
+    cout<<mon<<endl;
+    cout<<tue<<endl;
+    cout<<web<<endl;
+    cout<<thu<<endl;
+    cout<<fri<<endl;
+    cout<<sat<<endl;
+    cout<<sun<<endl;
+
+    return 0;
+
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    float basic;
+    float allowances;
+    float deducation;
+    double netsalary;
+
+    cout<< "Enter a Basic salary:";
+    cin>>basic;
+    cout<<"Enter parcent of allowances:";
+    cin>>allowances;
+    cout<< "Enter percent of deducation:";
+    cin>>deducation;
+
+    netsalary=basic+basic*allowances/100-basic*deducation/100;
+
+    cout<< "net salary:"<<netsalary<<endl;
+
+    return 0;
+
+}
+*/
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    float radius;
+    float area;
+
+    cout<< "Enter Radius of a Circle:";
+    cin>>radius;
+
+    area=3.14*radius*radius;
+    cout<< "Area of circle is:"<<area;
+
+    return 0;
+
+}
+*/
+
+
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    float BasicSalery;
+    float aliance ;
+    float didication;
+    float netsalery;
+    float scansalary = BasicSalery*aliance/100;
+
+    cout<<"Enter basic salery:";
+    cin>>BasicSalery;
+    cout<<  "Enter percent of aliance:";
+    cin>>aliance;
+    cout<< "didication percent:";
+    cin>>didication;
+
+    netsalery=BasicSalery-scansalary-BasicSalery*didication/100;
+
+    //aliance= netsalery*20\100;
+
+    cout<< "netsalary"<<netsalery;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int x,y;
+    cout<<"Enter 2 number:";
+    cin>>x>>y;
+
+    if(x>y)
+    {
+
+        cout<< "it's me";
+    }
+    else
+    {
+        cout<< "it not you";
+
+    }
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int rollno;
+
+    cout<< "Enter a roll no:";
+    cin>>rollno;
+
+    if(rollno>1)
+    {
+
+        cout<< "Valid rollno";
+
+    }
+    else
+    {
+
+        cout<< "not valid";
+
+    }
+    return 0;
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int age;
+
+    cout<< "Enter a correct age";
+    cin>>age;
+
+    if(age>1)
+    {
+        cout<< "Correct age";
+
+    }
+    else
+    {
+
+        cout<< "not correct age";
+
+    }
+    return 0;
+} */
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cout<< "Enter 2 no:";
+    cin>>a>>b;
+
+    if(b==0)
+        cout<< "Division by zero"<<endl;
+    else
+    {
+        c=a/b;
+        cout<<c<<endl;
+    }
+    return 0;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+ int main()
+ {
+
+     int a,b,c;
+
+     cout<<"Enter 2 number:";
+     cin>>a>>b;
+
+     if(b==0)
+         cout<< "division by zero :"<<endl;
+         else
+         {
+
+             c=a/b;
+
+             cout<<c<<endl;
+
+         }
+ }
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int hours;
+
+    if(hours>=9 && hours>=18)
+    {
+        cout<< "IT WORKING:";
+    }
+    else
+    {
+        cout<< "IT NO WORKING:";
+
+    }
+    return 0;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+
+    int age;
+
+    cout<< "Enter a age";
+    cin>>age;
+
+    if(age<12 || age<50)
+    {
+
+        cout<< "Eligible";
+
+    }
+    else
+    {
+
+        cout<< " not Eligible";
+
+    }
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int a,b,c;
+
+    cout<< "Enter a 2 number:";
+    cin>>a>>b>>c;
+
+    if(a>b && a<c)
+    {
+
+        cout<<a;
+
+    }
+    else if(b>c)
+    {
+        cout<<b;
+    }
+    else
+    {
+
+        cout<<c;
+
+    }
+    return 0;
+}
+*/
+/*#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main(float a, float b, float c)
+{
+    float d, r1,r2;
+
+    d=b*b-4*a*c;
+
+    if(d==0)
+    {
+
+        r1=-b/(2*a);
+        cout<< "Real and equal"<<r1;
+    }
+    else
+    {
+        if(d>0)
+        {
+
+
+            r1=(-b+sqrt(d))/(2*a);
+            r2=(-b-sqrt(d))/(2*a);
+            cout<< "Real and unequal "<<r1<<r2;
+        }
+        else
+        {
+            cout<< "Imaginary";
+        }
+
+
+
+    }
+    return 0;
+
+
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int m1,m2,m3,total;
+    float avg;
+
+    cout<< "Enter mark of three number:";
+    cin>>m1>>m2>>m3;
+
+    total= m1+m2+m3;
+    avg=total/3;
+
+    if(avg>60)
+    {
+        cout<< "fist division:"<<endl;
+    }
+    else if(avg>=35 && avg<60)
+    {
+        cout<< "Second division"<<endl;
+
+    }
+    else
+        cout<<"fail"<<endl;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int day;
+    cout<< "Enter day number";
+    cin>>day;
+
+    if(day==1)
+    {
+        cout<<"mon"<<endl;
+
+    }
+    else if(day==2)
+    {
+        cout<< "TUS"<<endl;
+
+    }
+    else if(day==3)
+    {
+        cout<< "WED"<<endl;
+
+    }
+    else if(day==4)
+    {
+
+        cout<< "THU" <<endl;
+
+    }
+    else
+        cout<< "Invalid input";
+
+    return 0;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int a=10,b=5,i=5;
+    if(a>b && ++i<=b)
+    {
+        //cout<<i;
+    }
+    cout<<i<<endl;
+
+    return 0;
+
+}
+
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int a=10,b=5;
+    if(true)
+    {
+        int c=a+b;
+        cout<<c<<endl;
+
+    }
+    int d=a-b;
+    if(true)
+    {
+        cout<<d<<endl;
+    }
+    if(int e=a*b)
+    {
+        cout<<e<<endl;
+
+    }
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int day;
+
+    cout<< "Enter day no:";
+    cin>>day;
+
+    switch(day)
+    {
+
+    case 1:
+        cout<< "man";
+        break;
+    case 2:
+        cout<< "TUS";
+        break;
+    case 3:
+        cout<< "wed";
+        break;
+    case 4:
+        cout<< "thu";
+        break;
+
+    case 5:
+        cout<< "fri";
+        break;
+    default:
+        cout<< "Invalid day";
+
+    }
+    return 0;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+
+    int number;
+    cout<< "Enter file no";
+    cin>>number;
+
+    switch(number)
+    {
+    case 1:
+        cout<< "open";
+        break;
+    case 2:
+        cout<< "save";
+        break;
+    case 3:
+        cout<<"save as";
+        break;
+    default:
+        cout<<"invalid number"<<endl;
+
+    }
+    return 0;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    cout<< "Menu\n";
+    cout<< "1. add\n"<< "2.sub\n"<<"3.mul\n"<< "4.Div\n";
+
+    int opration;
+    cout<< "Enter your choice:";
+    cin>>opration;
+    int a,b,c;
+    cout<< "Enter 2 number:";
+    cin>>a>>b;
+    switch(opration)
+    {
+    case 1: c=a+b;
+    break;
+    case 2: c=a-b;
+    break;
+    case 3: c=a*b;
+    break;
+    case 4: c=a/b;
+    break;
+
+
+    }
+
+    cout<< "result is "<<c<<endl;
+    return 0;
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    cout << "menu\n";
+    cout<< "1.add\n"<<"2.sub\n"<<"3.mul\n"<<"4.div\n";
+
+    int opration;
+
+    cout<< "Enter your choise:";
+    cin>>opration;
+
+    int a,b,c;
+    cout<< "Enter a 2 number:";
+    cin>>a>>b;
+
+    switch(opration)
+    {
+        case 1: c=a+b;
+        break;
+        case 2: c=a-b;
+        break;
+        case 3: c=a*b;
+        break;
+        case 4: c=a/b;
+        break;
+    }
+    cout<< "Result is "<<c<<endl;
+
+    return 0;
+
+}
+*/
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    float billAmount;
+    float discount=0.0;
+
+    cout<< "Enter Bill Amount:";
+    cin>>billAmount;
+
+    if(billAmount>=500)
+        discount=billAmount*20/100;
+    else if (billAmount>=100 && billAmount<500)
+        discount=billAmount*10/100;
+    cout<< "BIll amount is ="<<billAmount<<endl;
+    cout<< "Discount is = "<<discount<<endl;
+    cout<< "Discounted Amount is ="<<billAmount-discount<<endl;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    float billAmount;
+    float discount=0.0;
+
+    cout<<"Enter a bill amount:";
+    cin>>billAmount;
+
+    if(billAmount>=500)
+        discount=billAmount*20/100;
+    else if(billAmount>=100 && billAmount<500)
+        discount=billAmount*10/100;
+    cout<< "bill amount is="<<billAmount<<endl;
+    cout<< "discount amount is="<<discount<<endl;
+    cout<< "discounted amount is"<<billAmount-discount<<endl;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int year;
+
+    cout<< "Enter a year";
+    cin>>year;
+
+    if(year % 4==0)
+    {
+
+
+    }
+}
+*/
+
+/****loop********/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,i=1;
+
+    cout<<"Enter n number";
+    cin>>n;
+
+   // while(i<=n)
+   do
+    {
+        cout<<i<<endl;
+        i++;
+    } while(i<=n);
+    return 0;
+}
+
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int n,i;
+
+    cout<< "Enter n number:";
+    cin>>n;
+
+    for(i=1;i<=n;i++)
+    {
+        cout<<i<<endl;
+
+    }
+    return 0;
+}
+
+
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int i=0;
+
+    do
+    {
+        cout<<i<<"hello world"<<endl;
+        i++;
+    } while(i<10);
+    return 0;
+} */
+
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    for(int i=0;i<10;i++)
+    {
+
+        cout<<i <<" hello world"<<endl;
+
+    }
+    return 0;
+}
+*/
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n=6,i;
+    //cout<< "Enter n number:";
+    //cin>>n;
+
+    for(i=1; i<=10;i++)
+    {
+        cout<<n<<"X"<<i<<" ="<<i*n<<endl;
+
+    }
+    return 0;
+} */
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+
+    int n,i;
+
+    cout<< "Enter n number:";
+    cin>>n;
+
+    for(i=1;i<=10;i++)
+    {
+        cout<<n<<"x"<<i<<" ="<<i*n<<endl;
+
+    }
+    return 0;
+}
+
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,i=1,sum=0;
+
+    cout<< "Enter n number:";
+    cin>>n;
+
+    while(i<=n)
+    {
+        sum+=i;
+        i++;
+
+
+    }
+    cout<<"sum is="<<sum<<endl;
+    return 0;
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,i=1,sum=0;
+
+    cout<< "Enter n number:";
+    cin>>n;
+
+    while(i<=n)
+    {
+        cout<< "sum is="<<sum<<endl;
+        sum+=i;
+        i++;
+
+    }//while(i<=n);
+    return 0;
+}
+*/
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    cout << "menu\n";
+    cout<< "1.add\n"<<"2.sub\n"<<"3.mul\n"<<"4.div\n";
+
+    int opration;
+
+    cout<< "Enter your choise:";
+    cin>>opration;
+
+    int a,b,c;
+    cout<< "Enter a 2 number:";
+    cin>>a>>b;
+
+    switch(opration)
+    {
+        case 1: c=a+b;
+        break;
+        case 2: c=a-b;
+        break;
+        case 3: c=a*b;
+        break;
+        case 4: c=a/b;
+        break;
+    }
+    cout<< "Result is "<<c<<endl;
+
+    return 0;
+
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int n,i,sum=0;
+
+    cout<< "Enter n number";
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+    cout << "sum N no is"<<sum;
+    return 0;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int n, i,fectorial=1;
+
+    cout<< "Enter n number:";
+    cin>>n;
+
+    for(i=1;i<=n;i++)
+    {
+        fectorial=fectorial*i;
+
+    }
+    cout<< "fectorial of"<<n<<"is"<<fectorial<<endl;
+    return 0;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,i,sum=1;
+    cout<< "Enter n:";
+    cin>>n;
+
+    for(i=1;i<=n;i++)
+    {
+        if(n%i==0)
+        {
+
+
+
+            sum=sum*i;
+        }
+
+    }
+    if(2*n==sum)
+
+           cout<< "profect value";
+    else
+          cout<< "not perfect value";
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int n,i,count=0;
+
+    cout<< "Enter n:";
+    cin>>n;
+
+    for(i=1;i<=n;i++)
+    {
+        if(n%i==0)
+        {
+
+            count++;
+        }
+    }
+    if(count==2)
+        cout<< "its prime number:";
+    else
+        cout<< "It's not prime numbers";
+
+    return 0;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int n;
+    cout<< "Enter number:";
+    cin>>n;
+
+    for(int i=1; i<=n; i++)
+    {
+        cout<<n<< "x"<<i<<i*n<<endl;
+
+    }
+}*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+
+{
+
+
+    for(int i=1;i<=10;i++)
+    {
+        cout<<" "<<i<<endl;
+
+    }
+    return 0;
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int n,count=0;
+    cout<< "Enter a number:";
+    cin>>n;
+
+    for(int i=1;i<=n;i+++)
+    {
+        if(i%n==0)
+        {
+            cout++;
+        }
+
+
+    }
+    if(count==2)
+        cout<< "its "
+}
+*/
+
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int n,r;
+
+    cout<< "Enter number:";
+    cin>>n;
+
+    while(n>0)
+    {
+        r=n%10;
+        n=n/10;
+        cout<<r;
+
+    }
+    return 0;
+}*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int n,r,sum=0,m;
+
+    cout<< "Enter n:";
+    cin>>n;
+
+    m=n;
+    while(n>0)
+    {
+        r=n%10;
+        n=n/10;
+        sum=sum+r*r*r;
+    }
+    if(sum==m)
+        cout<<"its amstrong";
+
+    else
+        cout<< "it's not amstrong";
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,r,rev=0;
+    int m;
+
+    cout<< "Enter number:";
+    cin>>n;
+    m=n;
+
+    while(n>0)
+    {
+        r=n%10;;
+        n=n/10;
+        rev=rev*10+r;
+    }
+    cout<< "Reverse no is "<<rev;
+
+    return 0;
+}
+*/
+
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,r,sum=0;
+    cout<< "Enter a number:";
+    cin>>n;
+
+    while(n!=0)
+    {
+        r=n%10;
+        n=n/10;
+        sum=sum*10+r;
+        //cout<<r;
+
+
+    }
+    cout<<sum<<endl;
+    return 0;
+}*/
+
+///find GDC Of two number
+
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+    int m,n;
+    cout<< "Enter 2 no="l
+    cin>>m>>n;
+
+    while(m!=n)
+    {
+        if(m>n)
+           m=m-n;
+        else if(n>m)
+            n=n-m;
+
+    }
+    cout<<m;
+}
+*/
+
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,num,digit, rev = 0;
+
+    cout<< "Enter a postitive number:";
+    cin>>num;
+
+    n = num;
+
+    do {
+        digit = num % 10;
+        rev = (rev * 10) +digit;
+        num = num/100;
+    }while(num !=0);
+
+    cout<< "the reverse of the number is:"<<rev<<endl;
+
+    if(n == rev)
+        cout << "The number is a palindrome";
+    else
+        cout<< "The number is not a palindrome";
+
+    return 0;
+} */
+///ARRAY
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int A[5]={2,5,7,8,9};
+
+    for(int i=0;i<5;i++)
+    {
+        cout<<A[i]<<endl;
+
+    }
+    return 0;
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int A[5]={9,8,7,6,5};
+
+    for(int x:A)
+        cout<<x<<endl;
+    return 0;
+}
+*/
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    float A[5]={1.4,4,5.1,4,1};
+
+    for(auto x:A)
+    {
+        cout<<x<<endl;
+
+    }
+    return 0;
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int A[]={2,3,4,5,6,7};
+
+    for(int i=0; i<6;i++)
+        cout<<A[i]<<endl;
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int A[7]={1,2,3,4,5,6,7};
+
+    int sum=0;
+
+    for(int i=0;i<7;i++)
+    {
+        sum=sum+A[i];
+
+    }
+    cout<< "SUM IS ARRAY="<<sum<<endl;
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int A[9]={1,2,3,4,5,6,7,8,9};
+
+    int n=9,max,min;
+
+    max=A[0];
+    min=A[0];
+
+    for(int i=0;i<9;i++)
+    {
+        if(A[i]>max)
+
+           {
+               max=A[i];
+
+           }
+    for(int j=0;j<9;j++)
+    {
+
+        if(A[i]<min)
+        {
+            min=A[i];
+        }
+    }
+    }
+    cout<< "maximum no is ="<<max;
+    cout<< "Minimum value is="<<min;
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int A[10]={6,7,25,8,15,7,12,20,9,14};
+    int n=10, i;
+    int key;
+
+    cout<< "Enter key";
+    cin>>key;
+
+    for(i=0;i<n;i++)
+    {
+        if(key==A[i])
+        {
+            cout<< "Found at"<<i;
+
+        }
+    }
+    return 0;
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int A[10]={1,2,3,4,5,6,7,8,9,5};
+    int n=10,key,i;
+
+    cout<< "Enter a key";
+    cin>>key;
+
+    for(i=0;i<n;i++)
+    {
+        if(key==A[i])
+        {
+            cout<< "Found at"<<i<<endl;
+        }
+    }
+    cout<<"not found";
+    return 0;
+} */
+
+/*binary */
+# include<iostream>
+using namespace std;
+
+/*program for binary search of array element
+
+*/
+/*
+int main()
+{
+    int a[10]={6,8,13,17,20,22,25,28,30,35};
+ 	int l=0,h=9,key,mid;
+	cout<<"enter the key";
+	cin>>key;
+	whlie(l<==h)
+	{
+		mid=(l+h)/2;
+		if(key==a[mid])
+		{
+			cout<<"found at"<<mid;
+			return 0;
+		}
+		else if(key<a[mid])
+			h=mid-l;
+		else
+			l=mid+l;
+	}
+	cout<<"not found";
+	return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    for(int i=0;i<5;i++)
+    {
+        for(int j=0;j<5;j++)
+        {
+
+            cout<<"("<<i<<","<<j<<")";
+        }
+        cout<<endl;
+
+    }
+}
+*/
+/*
+# include<iostream>
+using namespace std;
+
+//program for draw pattern 1 using nested for loop
+
+int main()
+{
+	int count=1;
+	for(int i=0;i<4;i++)
+	{
+	     	for(int j=0;j<4;j++)
+		{
+		    cout<<count<<" ";
+		    count++;
+		}
+		cout<<endl;
+	}
+	return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    for(int i=0;i<5;i++)
+    {
+        for(int j=0;j<5;j++)
+        {
+            if(i>=j)
+                cout<< "*";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    //int n;
+
+    for(int i=0;i<5;i++)
+    {
+        for(int j=0;j<5;j++)
+        {
+           // if(i<=j)  //if(i>=j)
+            if(i+j>=5-1)
+              cout<< " * ";
+            else
+                cout<< " ";
+        }
+        cout<<endl;
+
+    }
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int A[2][3]={{2,4,6},{3,6,9}};
+
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;i<3;j++)
+        {
+            cout<<A[i][j];
+
+        }
+        return 0;
+    }
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int A[2][3]={{2,5,9},{7,3,6}};
+    int B[2][3]={{6,3,4},{9,5,2}};
+    int C[2][3];
+
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+            C[i][j]=A[i][j]+B[i][j];
+        }
+    }
+    for(int i=0; i<2;i++)
+    {
+        for(int j=0; j<3;j++)
+        {
+            cout<<C[i][j];
+        }
+       // cout<<endl;
+    }
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int A[2][3];
+
+    for(auto& x:A)
+    {
+        for(auto& y:x)
+        {
+            cin>>y;
+        }
+        cout<<endl;
+
+    }
+
+    for(auto& x:A)
+    {
+        for(auto& y:x)
+        {
+            cout<<y<< " ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int a[2][3]={3,3,3,3,3,3};
+    int b[2][3]={1,1,1,11,1};
+
+    int c[2][3];
+
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+            c[i][j]=a[i][j]-B[i][j]-B[i][j];
+        }
+    }
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+            cout<<c[i][j]<< " ";
+
+        }
+        count<endl;
+    }
+
+}
+*/
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+ int n, i;
+ float num[100], sum=0.0, average;
+
+ cout << "Enter the numbers of elements: ";
+ cin >> n;
+
+ for(i = 0; i < n; ++i)
+ {
+ cout << i + 1 << ". Enter number: ";
+ cin >> num[i];
+ sum += num[i];
+ }
+
+ average = sum / n;
+ cout << "Average = " << average;
+
+ return 0;
+};
+
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int a[10][10],b[10][10],mul[10][10],r1,c1,r2,c2,i,j,k;
+
+    cout<< "Enter rows columans for first matrix:";
+    cin>>r1>>c1;
+    cout<< "Enter rows and columans for second matrix:";
+    cin>>r2>>c2;
+
+    if(c1!=r2)
+    {
+        cout<< "Cant be multiplied";
+        return 0;
+
+    }
+    cout<<endl<< "Enter elements of matrix 1:"<<endl;
+    for(i=0;i<r1;i++)
+        for(j = 0; j < c1;++j)
+    {
+        cout << "Enter element a:"<< i+1<< j + 1<< ":";
+        cin >> a[i][j];
+    }
+    cout<<endl<< "Enter element of matrix 2:"<<endl;
+    for(i = 0; i<2;++i)
+        for(j=0;j<c2;++j)
+    {
+        cout << "Enter element b:"<<i+1<<j+1<< " : ";
+        cin>>b[i][j];
+
+    }
+    for(i = 0;i<r1;++i)
+        for(j=0;j<c2;++j)
+    {
+        mul[i][j]=0;
+        for(k=0;k<c1;++k)
+        {
+            mul[i][j]+= a[i][k]*b[k][j];
+
+
+        }
+
+    }
+    cout<< endl<< "Output matrix:"<<endl;
+    for(i=0;i<r1;i++)
+        for(j=0;j<c2;j++)
+    {
+        cout<< " "<<mul[i][j];
+        if(j== c2-1)
+            cout<<endl;
+
+    }
+    return 0;
+    }
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a=10;
+
+    int *p=&a;
+
+
+    cout<<a<<endl;
+    cout<<&a<<endl;
+    cout<<*p<<endl;
+    cout<<p<<endl;
+
+    return 0;
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int *p= new int[5];
+    p[0]=12;
+    p[1]=13;
+    cout<<p[1]<<endl;
+
+    delete []p;
+    p=nullptr;
+
+    return 0;
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int size;
+    cout<< "Enter number of elementa";
+    cin>>size;
+    int A[size];
+
+
+    cout<<sizeof A<<endl;
+    size=35;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int size;
+    cout<< "Enter number of element";
+    cin>>size;
+    int A[size];
+
+    cout<<sizeof A<<endl;
+    size=35;
+    A[size]
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int A[5]{2,4,6,8,10};
+    int *p=A;
+
+    cout<< *p<<endl;
+    p++;
+    cout<<*p<<endl;
+    p--;
+
+
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int x=10;
+    int &y=x;
+
+    cout<<x<<endl;
+    y++;
+    x++;
+
+    cout<<x<<endl;
+    cout<<&x<< " "<<&y;
+
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    char S[20];
+
+
+    cout<<S<<endl;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    char s[200];
+
+    cout<< "Enter your name: ";
+    cin.get(s,100);
+
+    cout<< "Welcome "<<s<<endl;
+
+    cin.ignore();
+
+    cout<< "Enter your name Again:";
+    cin.get(s,100);
+
+
+    cout<< "Welcome\n"<<s<<endl;
+
+    return 0;
+
+}
+*/
+/*
+#include<iostream>
+#include<cstring>
+
+using namespace std;
+
+int main()
+{
+
+    char *s;
+
+    cout<< "Enter a String:";
+    cin.getline(s,100)
+
+    cout"Lenght"<<strlen(s)<<endl;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    string str1="morning";
+    string str2="evening";
+
+    cout<< str1.compare(str2);
+
+    cout<<endl;
+
+    return 0;
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    string str="today";
+
+    string::reverse_iterator it;
+
+    for(it=str.rbegin();it!=str.rend();it++)
+    {
+        cout<<*it;
+    }
+  //  cout<<str;
+    return 0;
+
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    string str="today";
+
+    for(int i=0;str[i]!='\0';i++)
+    {
+        str[i]=str[i]-32;
+    }
+
+    cout<<str;
+
+    cout<<endl;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string str="welcome";
+
+    string::iterator it;
+
+    int cout=0;
+
+    for(it str.begin();it!=str.end();it++)
+    {
+        count++
+    }
+    cout<< "Length is "<<count <<endl;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string str="WELCOME";
+
+    for(int i=0;str[i]!='\0';i++)
+    {
+        if(str[i]>=65 && str[i]<=90)
+        {
+
+        str[i]=str[i]+32;
+
+        }
+    }
+
+    cout<<str<<endl;
+
+    return 0;
+}
+*/
+
+/*
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string str="weLcOmE7";
+
+    for(i=0;str[i]!='\0';i++)
+    {
+        if(str[i]>=97 && str[i]<=122)
+        {
+            str[i]-=32;
+        }
+    }
+    cout<<str<<endl;
+
+} */
+
+//count number of vowels, consonants and words
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string str="how many words";
+    int vowels=0,consonant=0,space=0;
+
+    for(int i=0;str[i]!='\0';i++)
+    {
+        if(str[i]=='A' || str[i]=='E' ||str[i]=='I' ||str[i]=='O' ||str[i]=='U'||str[i]=='a' ||str[i]=='e'
+           ||str[i]=='i' ||str[i]=='o' ||str[i]=='u' ||str[i]=='A' ||str[i]=='A' ||)
+            vowels++;
+        else if(str[i]==' ')
+            space++;
+        else
+            consonant++;
+
+
+    }
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string str="MADAM";
+
+    string rev=""
+
+    int len=(int)str.length();
+    rev.resize(len);
+
+    for(int i=0,j=len-1;i<len;i++,j--)
+    {
+        rev[i]=str[j];
+    }
+    rev[len]='\0';
+
+    if(str.compare(rev)==0)
+        cout<< "palindrome"<<endl;
+    else
+        cout<<"not a plaindrome"<<endl;
+
+
+    cout<<rev<<endl;
+
+    return 0;
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    string email="john123@gmail.com";
+
+    int i=(int)email.find('@');
+
+    string uname=email.substr(0,i);
+
+    cout<< "User name is "<<uname<<endl;
+
+    return 0;
+}
+*/
+/// function
+/*
+#include<iostream>
+using  namespace std;
+
+void display()
+{
+    cout<< "hello";
+}
+int main()
+{
+    display();
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int add(int x, int y)
+{
+    int z;
+    z=x+y;
+
+    return z;
+
+}
+int main()
+{
+    int a=5,b=5;
+    int c;
+    c=add(a,b);
+
+    cout<<c<<endl;
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+float add(float x,float y)
+{
+
+    float z;
+    z=x+y;
+    return z;
+
+}
+int main()
+{
+
+    float a=5.6,b=6.5;
+    float c;
+
+    c=add(a,b);
+
+    cout<<c<<endl;
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int maxim(int a,int b,int c)
+{
+
+    if(a>b && a<c)
+    {
+        return a;
+    }
+    else if(b>c)
+        return b;
+    else return c;
+}
+int main()
+{
+
+    int x=23,y=234,z=34,r;
+    r=maxim(x,y,z);
+    cout<<r<<endl;
+    return 0;
+} */
+/*
+#include<iostream>
+using namespace std;
+
+int minmum(int x,int y,int z)
+{
+    if(x<y && y>x)
+       return x;
+    else if(y<z)
+        return y;
+    else
+    return z;
+}
+int main()
+{
+    int a=1,b=2,c=3,d;
+    d=minmum(a,b,c);
+    cout<<d<<endl;
+    return 0;
+}
+*/
+/*
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int pow(int m, int n)
+{
+    int p=1;
+
+    for(int i=0;i<n; i++)
+    {
+
+        p=p*m;
+    }
+    return p;
+}
+int main()
+{
+    cout<<pow(2,4);
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int add(int x,int y)
+{
+    int z=x+y;
+    return z;
+}
+int add(int x, int y,int z )
+{
+    int m;
+    m=x+y+z;
+    //m=z+f;
+    return m;
+
+}
+float add(float x,float y)
+{
+    float z;
+
+    z=x+y;
+    return z;
+}
+
+
+int main()
+{
+    int a=20,b=30,c,d;
+    float e=2.5,f=6.9,g;
+    c=add(a,b);
+    d=add(a,b,c);
+    e=add(e,f);
+
+   // f=add(a,b,c,d);
+    cout<<c<<endl<<d<<endl<<g;
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+template<class T>
+
+T maxim(T a, T b)
+{
+    return a>b?a:b;
+}
+
+int main()
+{
+    cout<< maxim(12,14)<<endl;
+    cout<< maxim(2.1,1.4)<<endl;
+    cout<< maxim(2.3f,5.6f)<<endl;
+
+    return 0;
+
+}
+
+*/
+/*
+#include<iostream>
+using namespace std;
+template<class T>
+T  maxim(T a, T b)
+{
+    return a>b?a:b;
+}
+int main()
+{
+    cout<<maxim(12,14)<<endl;
+    cout<<maxim(2.1,1.4)<<endl;
+    cout<<maxim(2.3f,5.6f)<<endl;
+
+    return 0;
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+int add(int x,int y,int z=0)
+{
+    return x+y+z;
+}
+
+int main()
+{
+    int c=add(2,5);
+    int b=add(4,6,9);
+
+    cout<<c<<endl<<b<<endl;
+    return 0;
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int max(int a=0,int b=0,int c=0)
+{
+    return a>b && a>c ? a:(b>c?b:c);
+}
+int main()
+{
+    cout<<max()<<endl;
+    cout<<max(10)<<endl;
+    cout<<max(20,30)<<endl;
+    cout<<max(23,30,40)<<endl;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+void swap(int a, int b)
+{
+    cout<<a<<" "<<b<<endl;
+
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    cout<<a<<" "<<b<<endl;
+
+}
+int main()
+{
+
+    int x=10, y=20;
+    swap(x,y);
+    cout<<x<<" "<<y<<endl;
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int swap(int a, int b)
+{
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+
+    cout<<a<< " "<<b<<endl;
+   // return
+}
+int main()
+{
+    int x=10,y=20;
+    swap(x,y);
+    cout<<x<< " "<<y;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+void swap(int &a,int &b)
+{
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    for(int i=0;i<10;i++)
+        cout<<i<<endl;
+}
+int main()
+{
+    int x=10,y=20;
+
+    swap(x,y);
+    cout<<x<< " "<<y<<endl;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+int *fun()
+{
+    int *p=new int[5];
+    for(int i=0;i<5;i++)
+    {
+        p[i]=5*i;
+    }
+    return p;
+
+
+}
+
+int main()
+{
+    int *q=fun();
+    for(int i=0;i<5;i++)
+    {
+        q
+    }
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+int & fun(int &x)
+{
+    return x;
+
+}
+int main()
+{
+    int 5;
+    cout<<a<<endl;
+
+}
+*/
+/*
+#include<iostream>
+int g=5;
+using namespace std;
+void fun()
+{
+    int a=10;
+    a++;
+    g++;
+    cout<<a<<" "<<g<<endl;
+}
+int main()
+{
+    cout<<g<<endl;
+    fun();
+    cout<<g<<endl;
+
+}
+
+*/
+/*
+#include<iostream>
+using namespace std;
+
+coid fun()
+{
+    static int s=10;
+    s++;
+
+    cout<<s
+
+
+}
+int main()
+{
+    fun();
+    fun();
+}
+*/
+
+//oose
+/*
+#include<iostream>
+using namespace std;
+
+class Rectangle
+{
+public:
+    int length;
+    int breadth;
+
+    int area()
+    {
+        return length*breadth;
+    }
+    int perimeter()
+    {
+        return 2*(length+breadth);
+    }
+
+};
+int main()
+{
+
+    Rectangle r1;
+    r1.length=20;
+    r1.breadth=10;
+    cout<<"Area is="<<r1.area()<<endl;
+    cout<<"Perimeter is="<<r1.perimeter()<<endl;
+
+    return 0;
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+class Rectangle
+{
+public:
+    int length;
+    int breath;
+
+    int area()
+    {
+        return length*breath;
+    }
+    int premeter()
+    {
+        return 2*length+breath;
+    }
+};
+int main()
+{
+    Rectangle r1;
+    r1.length=20;
+    r1.breath=30;
+
+    cout<<"Area is="<<r1.area()<<endl;
+    cout<< "Parameter is="<<r1.premeter()<<endl;
+
+    return 0;
+}
+*/
+/*
+
+#include<iostream>
+using namespace std;
+
+class Rectangle
+{
+public:
+
+    int length;
+    int breadth;
+
+    int area()
+    {
+        return length*breadth;
+    }
+    int parameter()
+    {
+        return 2*(length+breadth);
+
+    }
+};
+int main()
+{
+   /* Rectangle r1,r2;
+    r1.length=15;
+    r1.breadth=34;
+    cout<<r1.area();
+    r2.length=16;
+    r2.breadth=10;
+    cout<<r2.area();*/
+
+  //  Rectangle r1;
+    /*Rectangle *ptr=new Rectangle;
+    ptr=&r1;
+    ptr->length=10;
+    ptr->breadth=5;
+
+    cout<<ptr->area()<<endl;
+    cout<<ptr->parameter()<<endl;
+
+
+    return 0;
+
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+class Rectangle
+{
+
+private:
+    int length;
+    int breath;
+
+public:
+    void setLength(int l)
+    {
+        if(l<0)
+
+        length=1;
+        else
+            length=1;
+    }
+    void setbreath(int b)
+    {
+        breath=b;
+    }
+    int getLength()
+    {
+        return length;
+    }
+    int getBreadth()
+    {
+
+        return breath;
+    }
+};
+int main()
+{
+    Rectangle r1;
+   // r1.area(50)
+    r1.setLength(50);
+    r1.setbreath(5);
+
+    //cout<<r1.area()<<endl;
+    cout<<r1.getLength()<<endl;
+    return 0;
+
+
+}
+*/
+/*
+#include<iostream
+using namespace std;
+
+class Rectamgle
+{
+
+private:
+    int length;
+    int breadth;
+
+public :
+    void setLength(int l)
+    {
+
+        void setLength(int l)
+        {
+            if(l>0)
+              length=1;
+            else
+                Lengh
+        }
+    }
+};
+
+*/
+/*
+#include<iostream>
+using namespace std;
+
+class Rectangle
+{
+
+private:
+    int length;
+    int breadth;
+
+public :
+    Rectangle();
+    Rectangle(int l,int b);
+    Rectangle(Rectangle &r);
+    int getLength();
+    int getbreadth();
+    void setLength(int l);
+    void setBreadth(int b);
+    int area();
+    int perimeter();
+    bool isSuare();
+    ~Rectangle();
+
+};
+int main()
+{
+    Rectangle r1(10,10);
+    cout<< "Area "<<r1.area()<<endl;
+    if(r1.isSquare())
+        cout<< "yes"<<endl;
+
+
+}
+Rectangle:: Rectangle()
+{
+    length=1;
+    breadth=1;
+}
+Rectangle ::
+*/
+/*
+#include<iostream>
+using namespace std;
+
+class complex
+{
+public:
+    int real;
+    int img;
+
+   complex add(complex c)
+   {
+
+       complex temp;
+       temp.real=real+c.real;
+       temp.img=img+c.img;
+       return temp;
+
+   }
+};
+int main()
+{
+
+    complex c1,c2,c3;
+    c1.real=5;c1.img=3;
+    c2.real=10;c2.img=5;
+
+    c3=c1.add(c2);
+    cout<<c3.real<< "+i" <<c3.img<<endl;
+
+}
+*/
+/*#include<iostream>
+using namespace std;
+
+class Complex
+{
+private:
+    int real;
+    int img;
+
+public:
+    Complex(int r=0, int i=0)
+    {
+        real=r;
+        img=i
+    }
+    void Display()
+    {
+        cout<<real<< "+i"<<img;
+    }
+    Complex operator+(Complex c,Complex c2)
+    {
+
+        Complex temp;
+        temp.real=real+c.real;
+        temp.img=img+c.img;
+        return 0;
+    }
+};
+int main()
+{
+
+
+} */
+/*
+# include<iostream>
+using namespace std;
+
+//program for operator overloading using friend functions
+
+
+class complex
+{
+private:
+	int real;
+	int img;
+public:
+	complex(int r=0,i=0)
+	{
+		real=r;
+	      	img=i;
+	}
+	void display()
+	{
+		cout<<real<<"+i"<<img;
+	}
+	friend complex opreator+(complex c1,complex c2);
+};
+complex operator+(complex c1,complex c2)
+{
+	complex temp;
+	temp.real=c1.real+c2.real;
+	temp.img=c1.img+v2.img;
+	return temp;
+}
+int main()
+{
+	complex c1(5,3),c2(10,5),c3;
+	c3=c1+c2;
+	c3.display();
+}
+*/
+/*
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+void numtender(int);
+int main()
+{
+
+    int amount;
+    cout<< "Enter the amount to be tendered:"<<endl;
+    cin>>amount;
+
+    numtender(amount);
+    return 0;
+
+}
+void numtender(int amount)
+{
+    int den[]={1,2,5,10,20,50,100,500,2000};
+    int numofnotes;
+
+    if(amount<=0)
+    return;
+
+    cout<< "Denomination details:"<<endl;
+    for(int i=8;i>=0;i--)
+    {
+        if(amount >=den[i])
+        {
+            numofnotes=amount/den[i];
+            cout<<setw(4)<<den[i]<< "x"
+            <<setw(3)<<numofnotes<< "="
+            <<setw(8)<<den[i]*numofnotes<<endl;
+            amount=amount%den[i];
+            if(amount == 0)
+                break;
+
+        }
+    }
+}
+*/
+  /*********Overloading*********/
+/*
+  #include<iostream>
+  using namespace std;
+  class Complex
+  {
+  private:
+    int real;
+    int img;
+
+    Complex add(Complex c)
+    {
+        Complex temp;
+        temp.real=real+c.real;
+        temp.img=img+c.img;
+        return temp;
+
+    }
+  };
+
+  int main()
+  {
+      Complex c1,c2,c3;
+      c1.real=5;
+      c1.img=3;
+      c2.real=10;
+      c2.img=5;
+
+      c3.c1.add(c2);
+      cout<<c3.real<< "+i"<<c3.img<<endl;
+
+
+  }
+
+*/
+
+//friend operator overlod
+/*
+#include<iostream>
+using namespace std;
+class Complex
+{
+  private:
+    int real;
+    int img;
+  public:
+    complex(int r=0,int i=0)
+    {
+        real=r;
+        img=i;
+    }
+    void display()
+    {
+        cout<< "+i"<<img<<endl;
+    }
+
+    friend ostream & operator<<(ostream &out,Complex &c)
+};
+ostream & operator<<(ostream &out,Complex &c)
+{
+    out<<c.real<<"+i"<<c.img;
+    return out;
+}
+int main()
+{
+    Complex c(10,5);
+    c.display();
+    cout<<(cout,out);
+
+}
+*/
+// write a class for Rational number
+//(p/q) with overloading + and <<operator
+/*
+#include<iostream>
+using namespace std;
+
+class Rational
+{
+private:
+    int p;
+    int q;
+
+public:
+    Rational()
+    {
+        p=1;
+        q=1;
+    }
+    Rational(int p,int q)
+    {
+        this->p=p;
+        this->q=r;
+    }
+    Rational(Rational &r)
+    {
+        this->p=r.p;
+        this->q=r.q;
+    }
+    int getP(){return p;}
+
+    int getQ(){return q;}
+
+    void setP(int p)
+    {
+        this->p=p;
+    }
+    void setQ(int q)
+    {
+        this->q=q;
+    }
+    Rational operator+(Rational r)
+    {
+        Rational t;
+        t.p=this->p*r.q+this->q*r.p;
+        t.q=this->q*r.q;
+        return t;
+    }
+    friend ostream &operator<<(ostream &os,Rational &r)
+};
+ostream & operator<<(ostream &os,Rational &r)
+{
+    os<<r.p<< "/"<<r.q;
+    return os;
+}
+int main()
+{
+    Rational r1(3,5),r2(2,5),r3;
+    r3=r1+r2;
+    cout<< "Sum of"<< "and"<<r2<<"is"<<r3<<endl;
+
+
+}
+*/
+
+//Inheritance topic
+//way of inheritance
+/*
+#include<iostream>
+using namespace std;
+
+class Base
+{
+public:
+    Base(){cout<< "Non-param base"<<endl;}
+    Base(int x){cout<<"param of base"<<x<<endl;
+
+};
+class Derived:public Base
+{
+public :
+    Derived(){cout<< "Non-param Deerived"<<endl;}
+    Derived(int y){cout<< "Param of Derived"<<y<<endl;}
+    Derived(int x,int y):Base(x)
+    {
+        cout<< "Param of Derived "<<y<<endl;
+
+    }
+
+};
+int main()
+{
+    Derived d(5,10);
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+class Parent
+{
+
+    private: int a;
+    protected:int b;
+    public: int c;
+
+    void funParent()
+    {
+        a=10;
+        b=5;
+        c=15;
+    }
+};
+class Chlid:private Parent
+{
+private:
+protected:
+public:
+    void funChild()
+    {
+
+      //  a=10;
+        b=5;
+        c=15;
+
+    }
+};
+class GrandChild : public Child
+{
+public :
+    void funGrandChild()
+    {
+        a=10;
+        b=5;
+        c=20;
+    }
+};
+int main()
+{
+    Child c;
+    c.a=10;
+    c.b=5;
+    c.c=20;
+}
+*/
+/**Write a class for Employee derived
+1.fulltime Employee with salary
+2.Part time Employee with Daily Wages
+Write requried Methods**/
+/*
+#include<iostream>
+using namespace std;
+
+class Employee
+{
+
+private:
+    int eid;
+    string name;
+public:
+    Employee(int e,string n)
+    {
+        eid=e;
+        name=n;
+
+    }
+    int getEmployeeID(){return eid;}
+    string getName(){return name;}
+};
+class FulltimeEmpolyee:public Employee
+{
+private:
+    int salary;
+public:
+    FulltimeEmpolyee(int e,string n,int sal):Employee(e,n)
+    {
+        salary =sal;
+    }
+    int getSalary(){return salary;}
+};
+class ParttimeEmployee: public Employee
+{
+private:
+    int wage;
+public:
+    ParttimeEmployee(int e,string n,int w):Employee(e,n)
+    {
+        wage=w;
+    }
+    int getWage(){return wage;}
+};
+class dayworkEmpolyee:
+int main()
+{
+    ParttimeEmployee p1(1,"johan",300);
+    FulltimeEmpolyee p2(2,"raj",500);
+    cout<<"salary of "<<p2.netName()<< "is "<<p2.getSalary()<<endl;
+    cout<< "Daily wage of "<<p1.getName()<< "is"<<p1.getName()<< "is"<<p1.getWage()<<endl;
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+class Base
+{
+public:
+    void fun1()
+    {
+        cout<< "Fun1 of Base"<<endl;
+    }
+};
+class Derived:public Base
+{
+public:
+    void fun2()
+    {
+        cout<< "Fun2 of Derived"<<endl;
+
+    }
+};
+int main()
+{
+    Derived d;
+    Base *ptr=&d;
+    ptr->fun1();
+   // d.fun1();
+    //d.fun2();
+
+    return 0;
+
+} */
+/*
+#include<iostream>
+using namespace std;
+
+class Rectangle
+{
+public:
+    void area()
+    {
+        cout<< "Area of Rectangle"<<endl;
+
+    }
+};
+class Cuboid:public Rectangle
+{
+public:
+    void volume()
+    {
+        cout<< "Cuboid volume"<<endl;
+    }
+};
+int main()
+{
+    Cuboid c;
+    Rectangle *p=&c;
+    p->area();
+    p->volume();
+    c.area();
+    c.volume();
+
+
+}
+*/
+/*
+#include<iostream>
+using namespace std;
+
+class BasicCar
+{
+    void start()
+    {
+        cout<< "Car started"<<endl;
+    }
+};
+class advanceCar: public BasicCar
+{
+public:
+    void playMusic()
+    {
+        cout<< "Music Playing"<<endl;
+
+    }
+};
+int main()
+{
+    BasicCar b;
+  //  AdvanceCar *q=&b;
+    advanceCar a;
+    BasicCar *ptr=&a;
+   // ptr->start();
+  //  ptr->playMusic();
+
+
+}
+*/
+//polymorphism
+/*
+#include<iostream>
+using namespace std;
+
+class Base
+{
+public:
+    void display()
+    {
+        cout<< "Display of base"<<endl;
+
+    }
+};
+
+class Derived:public Base
+{
+public:
+    void display(int x)
+    {
+        cout<< "Display of Derived"<<endl;
+
+    }
+
+};
+int main()
+{
+    Derived d;
+    //d.display;
+    d.Base::display();
+
+
+}
+*/
+/**virtual function***/
+#include<iostream>
+using namespace std;
+class your
+class my
+{
+private :
+    int a;
+public :
+    int c;
+
+    friend your;
+
+};
+class your
+{
+public:
+    my m;
+    void fun()
+    {
+        m.a=10;
+        m.b=10;
+        m.c=10;
+    }
+};
+int main()
+{
+
+
+
+}
